@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo áudio</title>
+</head>
+<body>
+    <h1>Inserindo áudio com HTML5</h1>
+    <audio src="audio/Delax - Drop You Like.mp3" controls autoplay></audio>
+    <br>
+    <p>Uma outra foma de inserir áudio é utilizando o próximo código, que acaba sendo bem utilizado para se obter compatibilidade com outros navegadores</p>
+    <br>
+    <!--Caso o navegador não funcione com mp3, é recomendado colocar também os arquivos em ordem: mp3, ogg e wav-->
+    <audio preload="metadata" autoplay controls>
+        <source src="audio/Delax - Drop You Like.mp3" type="audio/mpeg">
+    </audio>
+    <p>Clique no botão para ir para próxima página <a href="videos.html"><input type="button" value="Clique aqui!"></a></p>
+</body>
+</html>
