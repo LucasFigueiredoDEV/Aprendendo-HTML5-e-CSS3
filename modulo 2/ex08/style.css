@@ -22,3 +22,20 @@ h1{
 h2{
     color: orange;
 }
+
+.basico{
+    color: green;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avançado{
+    color: red;
+}
+
+.destaque{
+    background-color: aqua;
+}
