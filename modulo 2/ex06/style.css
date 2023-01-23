@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Mega Surprise';
+    src: url(fontes/Mega\ Surprise.ttf) format(truetype);
+    /*
+    Tipos de format()
+    -opentype (otf)
+    -truetype (ttf)
+    -embedded-opentype
+    -trutype-aat (apple advanced Typography)
+
+    */
+}
+body{
+    font-family: 'Mega Surprise',Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
