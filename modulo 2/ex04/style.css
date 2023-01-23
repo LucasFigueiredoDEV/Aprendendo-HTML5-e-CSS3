@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas absolutas
+    cm, mm, in (polegadas), px, pt (ponto), pc 
+
+    Medidas relativas
+    em, ex, rem, VW, VH, %
+
+    (É recomendado que se utilize px e em para meidadas de fonte, segunda a W3C)
+    */
+    /* 
+    16px geralmente = 1em
+    */
+    font-size: 1em;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    /*
+    Ordem para utilizar shorthand: font-style --> font-weight --> font-size --> font-family
+    */
+font: italic bolder 3em times, sans-serif;
+
+}
