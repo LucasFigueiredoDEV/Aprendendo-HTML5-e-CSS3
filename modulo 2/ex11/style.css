@@ -1,0 +1,50 @@
+h1{/*Box level*/
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    /*
+    Colocando o código abaixo em shorthand
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+    */
+    border: 10px solid darkslategray;
+    /*
+    Colocando o código abaixo em shorthand
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+    padding: 10px 10px 10px 10px; 
+    /* Caso queira utilizar somente uma medida, ou seja '10px', a medida será aplicada igualmente para cada lado*/
+    /* Caso queira utilizar duas medidas, ou seja '10px 20px', a medida será aplicada como 10 px em cima e em baixo, e 20px na direita e na esquerda*/
+
+
+    /*
+    Colocando o código abaixo em shorthand
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    */
+
+    /* Utilizando margin: 'auto', o código irá centralizar a box*/
+    margin: 20px auto 40px auto;
+
+    /*
+    Colocando o código abaixo em shorthand
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+    */
+    outline: 5px dashed salmon;
+}
+
+a{/*Inline-level*/
+    border: 10px;
+    border-style: dotted;
+    border-color: red;
+
+    padding: 10px;
+}
