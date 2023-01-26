@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: #5AE183;
+    
+}
+
+header{
+    background-color: #10A83E;
+    color: white;
+    text-align: center;
+}
+header > nav{
+    text-align: left;
+}
+
+div#conteudo{
+    background-color: white;
+}
+
+div#conteudo > h1{
+    color: #10A83E;
+}
+
+div#conteudo > h2{
+    color: #10A83E;
+}
+
+div#conteudo > p{
+    text-align: justify;
+}
